@@ -1,16 +1,139 @@
-# React + Vite
+# VEO-NEXUS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sophisticated web application for generating optimized prompts for VEO-3, the next-generation AI video generation model. Built with React, Vite, and Tailwind CSS v4.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Advanced Prompt Generation**: Create high-fidelity video prompts optimized for VEO-3
+- **Interactive UI**: Modern, cyberpunk-inspired interface with smooth animations
+- **Comprehensive Controls**: Subject, action, environment, style, camera, lighting, and technical parameters
+- **Consistency Engine**: Seed-based generation for consistent results
+- **Real-time Preview**: Live terminal-style output display
+- **Copy to Clipboard**: Easy prompt copying for use in AI tools
+- **Responsive Design**: Works seamlessly on desktop and mobile devices
 
-## React Compiler
+## 📸 Screenshots
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Main Interface
+![VEO-NEXUS Main Interface](./screenshots/main-interface.png)
+*The main prompt generation interface with cyberpunk styling*
 
-## Expanding the ESLint configuration
+### Input Parameters
+![Input Parameters](./screenshots/input-parameters.png)
+*Comprehensive input controls for subject, action, environment, and technical settings*
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Generated Output
+![Generated Output](./screenshots/generated-output.png)
+*Terminal-style output display with copy functionality*
+
+### Mobile View
+![Mobile View](./screenshots/mobile-view.png)
+*Responsive design optimized for mobile devices*
+
+> **Note**: To add screenshots, place your images in a `screenshots/` folder in the project root and update the image paths above.
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React 19.2.0
+- **Build Tool**: Vite with Rolldown
+- **Styling**: Tailwind CSS v4
+- **Icons**: Lucide React
+- **Development**: ESLint, PostCSS, Autoprefixer
+
+## 📋 Prerequisites
+
+- Node.js (v18 or higher)
+- npm or yarn
+
+## 🚀 Installation & Setup
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/RafaXzaviero/VEO-NEXUS.git
+cd VEO-NEXUS
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Start Development Server
+
+```bash
+npm run dev
+```
+
+The application will be available at `http://localhost:5173/`
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+### Preview Production Build
+
+```bash
+npm run preview
+```
+
+### Lint Code
+
+```bash
+npm run lint
+```
+
+## 💡 Usage
+
+1. **Fill in the Parameters**:
+   - **Subject**: Main object or character
+   - **Action**: Movement or activity
+   - **Environment**: Background setting
+   - **Style**: Visual art style
+   - **Camera**: Shot type and angle
+   - **Lighting**: Lighting conditions
+   - **Aspect Ratio**: Video dimensions
+   - **Duration**: Video length
+
+2. **Configure Consistency**:
+   - Enable "Lock Style" for consistent generation
+   - Set a custom seed or use random generation
+
+3. **Generate Prompt**:
+   - Click "GENERATE VEO PROMPT"
+   - Wait for AI processing simulation
+   - Copy the optimized prompt for use in VEO-3
+
+## 🎨 Customization
+
+The application uses Tailwind CSS v4 with custom animations and cyberpunk-inspired theming. Key styling files:
+
+- `src/index.css`: Global styles and Tailwind imports
+- `tailwind.config.js`: Tailwind configuration
+- `src/VeoPromptGen.jsx`: Main component with inline styles
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- VEO-3 by Google for inspiring this prompt generator
+- Tailwind CSS for the amazing utility-first framework
+- Lucide for beautiful icons
+- Vite for lightning-fast development
+
+---
+
+**Designed for Next-Gen Generative Video • System Status: NORMAL**
