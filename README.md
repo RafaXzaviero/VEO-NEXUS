@@ -18,8 +18,6 @@ A sophisticated web application for generating optimized prompts for VEO-3, the 
 ![VEO-NEXUS Main Interface](./screenshots/main-interface.png)
 *The main prompt generation interface with cyberpunk styling*
 
-> **Note**: To add screenshots, place your images in a `screenshots/` folder in the project root and update the image paths above.
-
 ## 🛠️ Tech Stack
 
 - **Frontend**: React 19.2.0
