@@ -18,18 +18,6 @@ A sophisticated web application for generating optimized prompts for VEO-3, the 
 ![VEO-NEXUS Main Interface](./screenshots/main-interface.png)
 *The main prompt generation interface with cyberpunk styling*
 
-### Input Parameters
-![Input Parameters](./screenshots/input-parameters.png)
-*Comprehensive input controls for subject, action, environment, and technical settings*
-
-### Generated Output
-![Generated Output](./screenshots/generated-output.png)
-*Terminal-style output display with copy functionality*
-
-### Mobile View
-![Mobile View](./screenshots/mobile-view.png)
-*Responsive design optimized for mobile devices*
-
 > **Note**: To add screenshots, place your images in a `screenshots/` folder in the project root and update the image paths above.
 
 ## 🛠️ Tech Stack
